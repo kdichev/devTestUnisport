@@ -1,0 +1,101 @@
+html,body{height:100%}body{padding-top:50px;padding-bottom:20px}
+
+.image-wrap {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.image-wrap img {
+    width:100%;
+}
+
+.product {
+    width: 270px;
+    height:450px;
+    float: left;
+}
+
+.product>a {
+    color: #333;
+    text-decoration: none;
+    
+    display: block;
+}
+.product .price-wrap {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product .old-price-wrap {
+    
+     font-size: 20px;
+    text-align: center;
+    
+}
+
+.product .name-wrap {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.33;
+    height: 48px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.product .price-wrap .price {
+    color: #0abf5a;
+    font-weight: 200;
+    vertical-align: top;
+        font-size: 25px;
+}
+
+.product .price-wrap .currency {
+    vertical-align: super;
+    color: #333;
+    font-size: 8px;
+}
+.product .delivery-wrap, .product .sizes-wrap {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+.sizes-wrap {
+    margin-top: 10px;
+}
+
+ 
+    
+.product .shadow {
+    background: url("https://unisport-assets.s3.amazonaws.com/styleguide/img/shadow.png") 50% 50% no-repeat;
+    background-size: 150px;
+    height: 20px;
+}
+.product .delivery-wrap p {
+    margin: 0;
+    color: #a0a0a0;
+    line-height: 1.33;
+}
+
+.sizes {
+    margin: 0;
+    color: #a0a0a0;
+    line-height: 1.33;
+}
+
+.product .old-price-wrap p {
+    margin: 0;
+    color: #a0a0a0;
+    line-height: 1.33;
+}
+
+.kids {
+    color:#fe8a01;
+}
+
+.women {
+    color: #bf55ec;
+}

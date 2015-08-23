@@ -1,0 +1,20 @@
+/*  Main MadBid css */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+@media(min-width:768px) and (max-width:999px) {
+  .col-sm-4 {
+    width: 50%;
+  }
+}

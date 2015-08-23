@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row product-grid" ng-controller="productsCtl">
+        <div class="product" ng-repeat="item in product"> <a href="{{ item.url }}">
+        <div class="splash"></div>
+
+        <div class="image-wrap">
+           <img data-src="" src="{{ item.img_url }}" alt="{{ item.name }}">
+        </div>
+
+        <div class="shadow"></div>
+
+        <div class="name-wrap">
+            <span>{{ item.name }}</span>
+        </div>
+
+        <div class="price-wrap">
+            <span class="price">{{ item.price }}</span>
+            <span class="currency">DKK</span>
+        </div>
+        
+        <div class="old-price-wrap">
+            <p class="price-p"><span class="price-label"></span>&nbsp;
+                <span class="price">
+                    <span ng-if="item.price_old != '0,00'" class="text-line-through">Vejl. pris: {{item.price_old}}</span>
+                </span>
+            </p>
+        </div>
+
+        <div class="delivery-wrap">
+            
+            
+            <p class="delivery-p">Levering: <span class="delivery">{{ item.delivery }}</span></p>
+        </div>
+
+        <div class="sizes-wrap">
+            <span ng-if="item.kids == 0 && item.women == 0" class="size-label"><span>STØRRELSE:</span></span>
+            <span ng-if="item.kids == 1" class="size-label kids"><span>BØRN:</span></span>
+            <span ng-if="item.women == 1" class="size-label women"><span>KVINDER:</span></span>
+            <span class="sizes">{{ item.sizes }}</span>
+        </div>
+    </a>
+
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /.section -->
